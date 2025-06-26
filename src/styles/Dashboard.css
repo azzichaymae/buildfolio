@@ -1,0 +1,130 @@
+
+
+.header {
+  background: linear-gradient(90deg, #6B46C1, #D53F8C);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a, .nav button {
+  color: white;
+  text-decoration: none;
+}
+
+.logout {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sidebar {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  height: calc(100vh - 100px);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+}
+
+.sidebar a {
+  color: #6B46C1;
+  text-decoration: none;
+}
+
+.dashboard-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.stats {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #F7FAFC;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+}
+
+.button {
+  background: #6B46C1;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.button:hover {
+  background: #553C9A;
+}
+
+.button.small {
+  padding: 4px 8px;
+  margin-right: 5px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.project-card {
+  background: #F7FAFC;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card-actions {
+  margin-top: 10px;
+}
+
+.analytics-widget {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  height: calc(100vh - 100px);
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  color: #A0AEC0;
+}
+
+.footer a {
+  color: #A0AEC0;
+  text-decoration: none;
+  margin: 0 10px;
+}
